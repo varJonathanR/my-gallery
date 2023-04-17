@@ -46,8 +46,8 @@ Best applications for Grid, like grid-column-start/end
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- HTML
-- CSS (SCSS)
+- HTML5
+- CSS3 (SCSS)
 - Grid
 
 ## Features
