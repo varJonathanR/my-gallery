@@ -38,7 +38,7 @@
 
 ![screenshot](https://github.com/varJonathanR/my-gallery/blob/main/assets/my-gallery_preview.png)
 
-- What have you learned/improved?
+- What have I learned/improved?
 
 Best applications for Grid, like grid-column-start/end
 
