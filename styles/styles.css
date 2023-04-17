@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  padding: 2rem;
+}
+.main p {
+  color: #A9A9A9;
+}
+.main .info * {
+  display: grid;
+  place-items: center;
+}
+.main .info .user {
+  gap: 0.5rem;
+}
+.main .info .user h3 {
+  font-size: 1.5rem;
+  color: #4E5150;
+}
+.main .info .user .profile {
+  width: 160px;
+  height: 160px;
+  border-radius: 5px;
+}
+.main .info .stats {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.main .info .stats div {
+  background-color: #E5E5E5;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.main .info .stats div h3 {
+  font-size: 1rem;
+  color: #4E5150;
+}
+.main .gallery {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+.main .gallery-item {
+  overflow: hidden;
+}
+.main .gallery-item-img {
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+}
+.main .gallery-item img {
+  width: 100%;
+}
+.main .gallery-item img:hover {
+  transform: scale(1.25);
+  transition: 0.5s;
+}
+.main .gallery .wide {
+  grid-column: span 2;
+}
+.main .gallery .tall {
+  grid-row: span 2;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #A9A9A9;
+}
+footer a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #A9A9A9;
+}/*# sourceMappingURL=styles.css.map */
